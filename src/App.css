@@ -51,8 +51,8 @@ body {
 }
 
 .detail-image {
-    width: 729px;
-    height: 742px;
+    width: 480px;
+    height: 500px;
 }
 
 .hero-banner-img {
@@ -96,9 +96,9 @@ body {
 .exercise-video {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 387px;
-    height: 381px;
+    gap: 16px;
+    width: 325px;
+    height: 325px;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ body {
     }
 
     .exercise-video {
-        width: 320px;
+        width: 300px;
         height: 300px;
     }
 

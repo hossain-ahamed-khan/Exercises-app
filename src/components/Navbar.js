@@ -9,7 +9,11 @@ const Navbar = () => {
         <Stack
             direction="row"
             justifyContent='space-around'
-            sx={{ gap: { sm: '122px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }}
+            sx={{
+                gap: { sm: '122px', xs: '40px' },
+                mt: { sm: '32px', xs: '20px' },
+                justifyContent: 'none'
+            }}
             px='20px'
         >
             <Link to='/'>
@@ -30,7 +34,7 @@ const Navbar = () => {
                 <Link to='/'
                     style={{
                         textDecoration: 'none',
-                        color: '#3A1212',
+                        color: '#F2F2F3',
                         borderBottom: '3px solid #FF2625'
                     }}>
                     Home
@@ -39,7 +43,7 @@ const Navbar = () => {
                 <a href='#exercises'
                     style={{
                         textDecoration: 'none',
-                        color: '#3A1212'
+                        color: '#F2F2F3'
                     }}>
                     Exercises
                 </a>
