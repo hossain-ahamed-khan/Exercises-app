@@ -13,15 +13,16 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
             sx={{
                 borderTop: bodyPart === item ? "4px solid #ff2625" : "",
                 backgroundColor: "#fff",
-                width: "270px",
-                height: "280px",
+                width: "240px",
+                height: "240px",
                 cursor: "pointer",
-                gap: "47px",
+                gap: "27px",
                 borderRadius: '24px'
             }}
             onClick={() => {
                 setBodyPart(item);
-                window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' })
+                window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
+
             }}
         >
             <img src={Icon} alt="dumbell" style={{ width: '40px', height: '40px' }} />
