@@ -5,14 +5,14 @@ import Logo from '../assets/images/Logo-1.png';
 
 const Footer = () => {
     return (
-        <Box mt="40px" bgcolor="#133154">
+        <Box mt="20px" bgcolor="#133154">
 
-            <Stack gap="20px" alignItems="center" px="20px" pt="20px">
+            <Stack gap="10px" alignItems="center" px="10px" pt="10px">
 
                 <img src={Logo} alt="logo" width="200px" height="40px" />
 
-                <Typography variant='h5' pb='20px' mt='10px'>
-                    Made with Love by Hossain.
+                <Typography variant='h6' pb='10px' mt='5px'>
+                    copyright &copy;2022 olympia.com designed hy hossain.
                 </Typography>
 
             </Stack>

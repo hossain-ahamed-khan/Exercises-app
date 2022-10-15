@@ -31,11 +31,11 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                     >
                         <img src={item.video.thumbnails[0].url} alt={item.video.title} />
                         <Box>
-                            <Typography variant="h6">
+                            <Typography variant="h6" style={{ color: '#9e9e9e' }}>
                                 {item.video.title}
                             </Typography>
 
-                            <Typography variant="p">
+                            <Typography variant="p" style={{ color: '#9e9e9e' }}>
                                 {item.video.channelName}
                             </Typography>
                         </Box>

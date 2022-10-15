@@ -14,8 +14,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
     const paginate = (e, value) => {
         setCurrentPage(value);
-
-        window.scrollTo({ top: 1800, behavior: 'smooth' })
     }
 
     useEffect(() => {
@@ -60,7 +58,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             <Stack mt="100px" alignItems="center">
                 {exercises.length > 9 && (
                     <Pagination
-                        variant="outlined"
                         color="primary"
                         defaultPage={1}
                         count={Math.ceil(exercises.length / exercisesPerPage)}

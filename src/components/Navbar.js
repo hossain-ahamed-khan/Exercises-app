@@ -19,8 +19,8 @@ const Navbar = () => {
             <Link to='/'>
                 <img src={Logo} alt="logo"
                     style={{
-                        width: '48px',
-                        height: '48px',
+                        width: '80px',
+                        height: '80px',
                         margin: '0 20px'
                     }} />
             </Link>
@@ -29,7 +29,8 @@ const Navbar = () => {
                 direction='row'
                 gap='40px'
                 fontSize='24px'
-                alignItems='flex-end'
+                justifyContent='center'
+                alignItems='center'
             >
                 <Link to='/'
                     style={{
